@@ -1,0 +1,47 @@
+/* Add application styles & imports to this file! */
+
+:root {
+  --bg: #fa82e0;
+}
+
+#S {
+  --ion-background-color: var(--bg);
+}
+
+#SS {
+  --ion-background-color: var(--bg);
+}
+
+.toolbar {
+  padding: 20px 0;
+  background-color: var(--bg);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#c {
+  color: white;
+}
+
+#cc {
+  color: #fa82e0 !important;
+}
+
+ion-title {
+  width: fit-content;
+  margin: 0;
+  color: white;
+}
+
+.navigation ion-item {
+  cursor: pointer;
+}
+
+.navigation ion-item:hover {
+  filter: saturate(0.8);
+}
+
+.navigation ion-item ion-label {
+  color: white !important;
+}
